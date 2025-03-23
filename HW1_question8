@@ -2,7 +2,12 @@ HOMEWORK-1 QUESTION-8
 
 
 
-
+Write a C program which prompts the user for a number, 
+"q". The program has a function that checks if 
+"q" is a negative, zero, or positive using if-else statement. 
+It should return 1 if positive, 0 if zero, -1 if 
+negative. The main function should 
+then print an appropriate message based on the result returned. 
 
 
 
