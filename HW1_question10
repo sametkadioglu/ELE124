@@ -3,8 +3,8 @@
 
 
 int is_leap_year(int y) {
-    if (y % 4 == 0) {                                //year is divisible by 4
-        if (y % 100 == 0) {                          //if it's divisible by 100, must divisible by 400
+    if (y % 4 == 0) {                  //year is divisible by 4
+        if (y % 100 == 0) {            //if it's divisible by 100, must divisible by 400
             if (y % 400 == 0) {
                 return 1;
             } else {
@@ -21,7 +21,7 @@ int is_leap_year(int y) {
 int main() {
     int year;
 
-    printf("Enter a year: ");          // Ask the user to input a year
+    printf("Enter a year: ");                       // Ask the user to input a year
     scanf("%d", &year);
 
     if (is_leap_year(year)) {                                          
