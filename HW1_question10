@@ -3,6 +3,14 @@ HOMEWORK-1   QUESTION-10
 
 
 
+10. Write a C program which prompts the user to input a year, 
+"y". Your program should have a function that checks if 
+the year "y" is a leap year or not using if-else conditions 
+(A leap year is exactly divisible by 4 except for century years 
+which are not divisible by 400). The function should return 1 
+if it's a leap year and return 0 if it's not. Based on 
+the output from this function, your main function should print 
+"y is a leap year" or "y is not a leap year".
 
 
 
