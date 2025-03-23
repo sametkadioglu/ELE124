@@ -1,24 +1,33 @@
+HOMEWORK-1 QUESTION-8
+
+
+
+
+
+
+
+
 #include <stdio.h>
 
-int check_number(int q) {                                        //check if a number is positive, zero, or negative
+int check_number(int q) {         //check number positive, zero or negative
     if (q > 0) {
-        return 1;                                                // Positive
+        return 1;                 // Positive
     } else if (q == 0) {
-        return 0;                                                // Zero
+        return 0;                 // Zero
     } else {
-        return -1;                                               // Negative
+        return -1;                // Negative
     }
 }
 
 int main() {
     int q;
 
-    printf("Enter a number: ");                                  // asking user, a number
+    printf("Enter a number: ");                   // asking user, a number
     scanf("%d", &q);
 
     int result = check_number(q);
 
-    if (result == 1) {                                           // Print message
+    if (result == 1) {                            // Print message
         printf("%d is a positive number.\n", q);
     } else if (result == 0) {
         printf("%d is zero.\n", q);
